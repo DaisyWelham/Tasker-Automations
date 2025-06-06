@@ -1,0 +1,224 @@
+<TaskerData sr="" dvi="1" tv="6.5.9">
+	<Profile sr="prof13" ve="2">
+		<cdate>1749134328554</cdate>
+		<clp>true</clp>
+		<edate>1749164877482</edate>
+		<flags>8</flags>
+		<id>13</id>
+		<mid0>12</mid0>
+		<nme>MorningAudible</nme>
+		<Time sr="con0">
+			<fh>6</fh>
+			<fm>30</fm>
+			<th>6</th>
+			<tm>30</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof14" ve="2">
+		<cdate>1749219206327</cdate>
+		<clp>true</clp>
+		<edate>1749219463308</edate>
+		<flags>8</flags>
+		<id>14</id>
+		<mid0>15</mid0>
+		<nme>EveningDNDon</nme>
+		<Time sr="con0">
+			<fh>22</fh>
+			<fm>0</fm>
+			<th>22</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof16" ve="2">
+		<cdate>1749136022207</cdate>
+		<clp>true</clp>
+		<edate>1749164894219</edate>
+		<flags>8</flags>
+		<id>16</id>
+		<mid0>17</mid0>
+		<nme>MorningCalendar</nme>
+		<Time sr="con0">
+			<fh>7</fh>
+			<fm>0</fm>
+			<th>7</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof18" ve="2">
+		<cdate>1749219388879</cdate>
+		<clp>true</clp>
+		<edate>1749219445116</edate>
+		<flags>8</flags>
+		<id>18</id>
+		<mid0>19</mid0>
+		<nme>MorningDNDoff</nme>
+		<Time sr="con0">
+			<fh>6</fh>
+			<fm>29</fm>
+			<th>6</th>
+			<tm>29</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof6" ve="2">
+		<cdate>1749130335480</cdate>
+		<clp>true</clp>
+		<edate>1749139874629</edate>
+		<flags>8</flags>
+		<id>6</id>
+		<mid0>7</mid0>
+		<nme>HourlyNotify</nme>
+		<Time sr="con0">
+			<fh>7</fh>
+			<fm>0</fm>
+			<rep>1</rep>
+			<repval>1</repval>
+			<th>22</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1749169284200</cdate>
+		<name>Daily Routine</name>
+		<pids>16,18,14,6,13</pids>
+		<tids>17,19,12,7,15</tids>
+		<Img sr="icon" ve="2">
+			<fle>/storage/emulated/0/Pictures/file_00000000033861f491c1aba9d6f9b240.png</fle>
+		</Img>
+	</Project>
+	<Task sr="task12">
+		<cdate>1749134188991</cdate>
+		<edate>1749219810460</edate>
+		<id>12</id>
+		<nme>LaunchAudible</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.audible.application.MainLauncher</appClass>
+				<appPkg>com.audible.application</appPkg>
+				<label>Audible</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task15">
+		<cdate>1749219212979</cdate>
+		<edate>1749219481827</edate>
+		<id>15</id>
+		<nme>DNDon</nme>
+		<Action sr="act0" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Bundle sr="arg6">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%dnd_allow_callers
+Allow Callers
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%dnd_categories()
+Allow Categories
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%dnd_allow_message_senders
+Allow SMS Senders
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%dnd_mode
+Mode
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%dnd_suppressed_effects()
+Suppressed Effects
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+		</Action>
+	</Task>
+	<Task sr="task17">
+		<cdate>1749136033218</cdate>
+		<edate>1749219056102</edate>
+		<id>17</id>
+		<nme>MorningOrganise</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.android.calendar.AllInOneActivity</appClass>
+				<appPkg>com.google.android.calendar</appPkg>
+				<label>Calendar</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="30"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.google.android.apps.tasks.ui.TaskListsActivity</appClass>
+				<appPkg>com.google.android.apps.tasks</appPkg>
+				<label>Tasks</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="30"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task19">
+		<cdate>1749219400329</cdate>
+		<edate>1749219488885</edate>
+		<id>19</id>
+		<nme>DNDoff</nme>
+		<Action sr="act0" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Bundle sr="arg6">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%dnd_allow_callers
+Allow Callers
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%dnd_categories()
+Allow Categories
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%dnd_allow_message_senders
+Allow SMS Senders
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%dnd_mode
+Mode
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%dnd_suppressed_effects()
+Suppressed Effects
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1749130359382</cdate>
+		<edate>1749197903199</edate>
+		<id>7</id>
+		<nme>Vibrate 1s</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="1000"/>
+		</Action>
+	</Task>
+</TaskerData>
